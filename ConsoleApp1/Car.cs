@@ -29,7 +29,7 @@ namespace ConsoleApp1
         /// <summary>
         ///     右に曲がる。
         /// </summary>
-        public void TurnLight()
+        public void TurnRight()
         {
             Handle.Right();
         }
