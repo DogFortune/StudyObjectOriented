@@ -10,11 +10,13 @@ namespace ConsoleApp1
         public override void On()
         {
             // ブレーキを作動させるための処理を書く。
+            Console.WriteLine("ロックしないようにブレーキをかけます。");
         }
 
         public override void Off()
         {
             // ブレーキを離した時の処理を書く。
+            Console.WriteLine("ブレーキを解除します。");
         }
     }
 }
