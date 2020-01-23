@@ -15,7 +15,6 @@ namespace ConsoleApp1
 
             car.Start();
             car.TurnLeft();
-
             car.Stop();
 
             Console.ReadKey();
